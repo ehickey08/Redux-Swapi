@@ -26,3 +26,19 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+.characterList{
+    width: fit-content;
+    margin: 75px auto;
+    background: #f1f1f1;
+    border-left: 5px solid rgba(134, 45, 23, 0.8);
+    padding: 50px;
+}
+
+.character{
+    color: rgba(134, 45, 23, 0.8);
+    list-style: square inside;
+    margin: 5px;
+    padding: 5px;
+}
